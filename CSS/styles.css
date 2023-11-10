@@ -1,0 +1,19 @@
+h1 {
+  font-family: "police logo";
+}
+h2 {
+  color: red;
+  font-family: "Goudy Bookletter 1911";
+}
+h2.contact {
+  color: blue;
+}
+section#contact {
+  background-color: lightgrey;
+}
+p {
+  font-family: "gowun Batang";
+}
+li {
+  font-family: "Gowun Batang";
+}
