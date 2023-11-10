@@ -1,14 +1,13 @@
 h1 {
-  font-family: "police logo";
+  font-family: "Goudy Bookletter 1911";
 }
 h2 {
-  color: red;
   font-family: "Goudy Bookletter 1911";
 }
 h2.contact {
   color: blue;
 }
-section#contact {
+section.contact {
   background-color: lightgrey;
 }
 p {
@@ -16,4 +15,19 @@ p {
 }
 li {
   font-family: "Gowun Batang";
+}
+section h2 {
+  color: white;
+  background-color: black;
+}
+/* Utils */
+.flex {
+  display: flex;
+  width: 100%;
+}
+.flex > * {
+  flex: 1;
+}
+.gap-1 {
+  gap: 1rem;
 }
